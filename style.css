@@ -13,7 +13,86 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: twentytwentythree
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
 */
-.mainmenu li a{
+.mainmenu li a {
     padding: 10px;
     display: block;
+}
+
+/* .bem-popup-wrapper::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .8;
+} */
+
+h3#comments {
+    background: #e9e987;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+ol.commentlist li {
+    margin-bottom: 25px;
+}
+
+.comment-author.vcard {
+    display: flex;
+    align-items: center;
+}
+
+.comment-author img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+span.says {
+    margin-left: 12px;
+}
+
+ol.commentlist li .children {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.comment-body {
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+h3#reply-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea#comment {
+    display: block;
+    border: 1px solid #c1c1c1;
+    outline: none;
+    padding: 8px;
+    width: 100%;
+}
+
+input#submit {
+    background: yellow;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin: 10px 0 10px;
+    cursor: pointer;
+}
+
+p.logged-in-as {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.comment-meta.commentmetadata {
+    font-size: 14px;
+    opacity: 0.8;
 }
